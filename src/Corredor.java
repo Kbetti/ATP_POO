@@ -14,12 +14,7 @@ public class Corredor extends Atleta {
 	
 	@Override
 	public String toString() {
-		String retorno = "";
-		retorno += "Nome: "     + this.nome     + "\n";
-		retorno += "Idade: "    + this.idade    + " anos\n";
-		retorno += "Número: "     + this.numero     + "\n";
-		retorno += "Categoria: "  + this.categoria  + "\n";
-		retorno += "Competindo: "  + competir()        + "\n";
+		String retorno = super.toString();
 		retorno += "Prova: "+ this.prova + "\n;";
 		return retorno;
 	}
